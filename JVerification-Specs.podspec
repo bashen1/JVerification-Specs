@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'JVerification-Specs'
-    s.version          = '1.0.0'
+    s.version          = '1.1.0'
     s.summary          = 'Specs for JVerification'
     s.description      = 'Specs for JVerification.'
     s.homepage         = 'https://github.com/bashen1/JVerification-Specs'
