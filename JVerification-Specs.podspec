@@ -24,8 +24,8 @@ Pod::Spec.new do |s|
       "VALID_ARCHS" => "x86_64 arm64"
     }
     s.libraries = "sqlite3.0", "c++.1", "z", "resolv"
-    s.source_files = "*.h"
-    s.vendored_frameworks = "account_login_sdk_noui_core.framework", "EAccountApiSDK.framework", "TYRZUISDK.xcframework"
-    s.vendored_libraries = "*.a"
+    # s.source_files = "*.h"
+    s.vendored_frameworks = "EAccountApiSDK.xcframework", "jverification-ios-3.2.1.xcframework", "OAuth.xcframework", "TYRZUISDK.xcframework"
+    # s.vendored_libraries = "*.a"
     s.dependency "JCore"
 end
